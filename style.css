@@ -1,0 +1,28 @@
+:root{
+    --primary: #006400;
+    --secondary: #ffffff;
+    --tertiary: #f0f0f0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ .nav-link {
+    color: var(--secondary) ;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  .nav-link:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border-radius: 0.25rem;
+  }
+  .hero-section{
+    background: url('images/pexels-alejandro-barron-21404-96715.jpg') no-repeat center center/cover;
+    height: 400px;
+    color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
